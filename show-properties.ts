@@ -2,12 +2,12 @@
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 
 @Component({
-	selector: 'display'
+	selector: 'display',
+	appInjector: [FriendsService]
 })
 @View({
 	templateUrl: "display-component.html",
-	directives: [NgFor],
-	appInjector: [FriendsService]
+	directives: [NgFor]
 })
 export class DisplayComponent {
 	myName: string;
