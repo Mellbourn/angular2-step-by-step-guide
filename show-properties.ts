@@ -6,14 +6,15 @@ import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 })
 @View({
 	templateUrl: "display-component.html",
-	directives: [NgFor]
+	directives: [NgFor],
+	appInjector: [FriendsService]
 })
 export class DisplayComponent {
 	myName: string;
 	names: Array<string>;
 
-	constructor() {
+	constructor(friendsService: FriendsService) {
 		this.myName = "alice";
-		this.names = ["Aarav", "Martín", "Shannon", "Ariana", "Kai"];
+		this.names = friendsService.names;
 	}
 }
