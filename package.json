@@ -1,0 +1,6 @@
+{
+  "name": "angular2-step-by-step-guide",
+  "devDependencies": {
+    "typescript": "^1.5.3"
+  }
+}
