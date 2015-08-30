@@ -1,0 +1,8 @@
+<ul>
+	<li *ng-for="#todo of todos">
+		{{ todo }}
+	</li>
+</ul>
+<label for="newTodo">New todo</label>
+<input id="newTodo" #todotext (keyup)="doneTyping($event)"/>
+<button (click)="addTodo(todotext.value)">Add Todo</button>

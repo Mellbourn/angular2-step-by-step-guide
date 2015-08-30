@@ -1,6 +1,7 @@
 /// <reference path="typings/angular2/angular2.d.ts" />
 import { Component, View, bootstrap } from 'angular2/angular2';
 import { DisplayComponent } from 'display.component'
+import { ToDoList } from 'todo.list'
 
 // Annotation section
 @Component({
@@ -8,7 +9,7 @@ import { DisplayComponent } from 'display.component'
 })
 @View({
 	templateUrl: "app.html",
-	directives: [DisplayComponent]
+	directives: [DisplayComponent, ToDoList]
 })
 // Component controller
 class MyAppComponent {
