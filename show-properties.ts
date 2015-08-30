@@ -8,7 +8,7 @@ import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 	templateUrl: "display-component.html",
 	directives: [NgFor]
 })
-class DisplayComponent {
+export class DisplayComponent {
 	myName: string;
 	names: Array<string>;
 
