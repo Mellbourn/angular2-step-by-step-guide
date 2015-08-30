@@ -7,7 +7,7 @@ import { DisplayComponent } from 'show-properties'
 	selector: 'my-app'
 })
 @View({
-	template: '<h1>Hello {{ name }}</h1><display></display>',
+	templateUrl: "app.html",
 	directives: [DisplayComponent]
 })
 // Component controller
