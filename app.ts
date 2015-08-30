@@ -1,6 +1,6 @@
 /// <reference path="typings/angular2/angular2.d.ts" />
 import { Component, View, bootstrap } from 'angular2/angular2';
-import { DisplayComponent } from 'show-properties'
+import { DisplayComponent } from 'display.component'
 
 // Annotation section
 @Component({
