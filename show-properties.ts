@@ -1,9 +1,10 @@
 // TypeScript
 import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
+import {FriendsService} from 'FriendsService';
 
 @Component({
 	selector: 'display',
-	appInjector: [FriendsService]
+	bindings: [FriendsService]
 })
 @View({
 	templateUrl: "display-component.html",

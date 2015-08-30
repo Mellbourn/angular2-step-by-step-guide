@@ -1,10 +1,10 @@
 /**
  * FriendsService
  */
-class FriendsService {
+export class FriendsService {
 	names: Array<string>;
 
-	constructor(parameters) {
+	constructor() {
 		this.names = ["Aarav", "Martín", "Shannon", "Ariana", "Kai"];
 	}
 }
