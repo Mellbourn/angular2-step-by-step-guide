@@ -1,5 +1,5 @@
 // TypeScript
-import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
+import {Component, View, bootstrap, NgFor, NgIf} from 'angular2/angular2';
 import {FriendsService} from 'FriendsService';
 
 @Component({
@@ -8,7 +8,7 @@ import {FriendsService} from 'FriendsService';
 })
 @View({
 	templateUrl: "display-component.html",
-	directives: [NgFor]
+	directives: [NgFor, NgIf]
 })
 export class DisplayComponent {
 	myName: string;
