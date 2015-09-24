@@ -8,9 +8,6 @@
     "rx/rx.d.ts": {
       "commit": "32029fcb4e1a3ef8968711b545d77b584435729d"
     },
-    "es6-promise/es6-promise.d.ts": {
-      "commit": "32029fcb4e1a3ef8968711b545d77b584435729d"
-    },
     "rx/rx-lite.d.ts": {
       "commit": "32029fcb4e1a3ef8968711b545d77b584435729d"
     },
