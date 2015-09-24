@@ -1,6 +1,6 @@
 // TypeScript
 import {Component, View, bootstrap, NgFor, NgIf} from 'angular2/angular2';
-import {FriendsService} from 'friends.service';
+import {FriendsService} from './friends.service';
 
 @Component({
 	selector: 'display',

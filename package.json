@@ -2,6 +2,7 @@
   "name": "angular2-step-by-step-guide",
   "devDependencies": {
     "http-server": "^0.8.0",
-    "typescript": "^1.5.3"
+    "typescript": "^1.6.2",
+    "tsd": "^0.6.4"
   }
 }
