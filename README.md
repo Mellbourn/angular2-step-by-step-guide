@@ -2,19 +2,18 @@
 
 working version of https://angular.io/docs/js/latest/quickstart.htm
 
-Start by
+Start by doing
 <pre><code>
 npm install
-tsd reinstall
 </code></pre>
 
-On Windows:
+Then on Windows:
 
 <pre><code>
 .\Start-Project.ps1
 </code></pre>
 
-On Mac:
+Or on Mac:
 
 <pre><code>
 ./Start-Project.sh
